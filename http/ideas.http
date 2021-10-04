@@ -1,0 +1,21 @@
+@baseURL = http://localhost:4000
+
+###
+GET {{baseURL}}/status
+Content-Type: application/json
+
+###
+GET {{baseURL}}/ideas
+Content-Type: application/json
+
+###
+POST {{baseURL}}/ideas
+Content-Type: application/json
+
+{
+    "title": "Aplicativo genial",
+    "description": "Um app para lista de compras",
+    "resources": "www.google.com",
+    "emails": "guilherme.almeida43@fatec.sp.gov.br",
+    "priority": "high"
+}
