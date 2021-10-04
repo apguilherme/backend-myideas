@@ -9,13 +9,36 @@ GET {{baseURL}}/ideas
 Content-Type: application/json
 
 ###
+GET {{baseURL}}/ideas/615ab7ad237c62005a56a665
+Content-Type: application/json
+
+###
 POST {{baseURL}}/ideas
 Content-Type: application/json
 
 {
-    "title": "Aplicativo genial",
+    "title": "test idea",
     "description": "Um app para lista de compras",
+    "category": "tech",
+    "resources": "www.google.com",
+    "emails": "guilherme.almeida43@fatec.sp.gov.br",
+    "priority": "low"
+}
+
+###
+PUT {{baseURL}}/ideas
+Content-Type: application/json
+
+{
+    "_id": "615ab7ad237c62005a56a665",
+    "title": "App receitas",
+    "description": "Um app para lista de compras",
+    "category": "tech",
     "resources": "www.google.com",
     "emails": "guilherme.almeida43@fatec.sp.gov.br",
     "priority": "high"
 }
+
+###
+DELETE {{baseURL}}/ideas/615abd128136e63bc8d41225
+Content-Type: application/json

@@ -12,4 +12,15 @@ const PORT = process.env.PORT;
 app.get("/status", (req, res) => res.json({msg: "OK"}));
 app.use("/ideas", routesIdea)
 
-app.listen(PORT, (req, res) => console.log(`Server running on PORT ${PORT}.`)); // node index.js
+app.listen(PORT, (req, res) => console.log(`Server running on PORT ${PORT}.`)); 
+
+/*
+
+npm start
+heroku local web
+
+git remote add origin https://github.com/apguilherme/backend-myideas.git
+git branch -M main
+git push -u origin main
+
+*/
