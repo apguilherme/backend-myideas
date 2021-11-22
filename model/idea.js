@@ -7,6 +7,7 @@ const IdeaSchema = mongoose.Schema({
     resources: {type: String},
     emails: {type: String},
     priority: {type: String},
+    // adicionar campo de visible true/false para feed de ideias
 }, {timestamps: true});
 
 module.exports = mongoose.model("idea", IdeaSchema);

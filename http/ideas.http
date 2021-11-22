@@ -18,8 +18,8 @@ POST {{baseURL}}/ideas
 Content-Type: application/json
 
 {
-    "title": "test idea",
-    "description": "Um app para lista de compras",
+    "title": "TESTE AO VIVO",
+    "description": "TESTE TESTE TESTE",
     "category": "tech",
     "resources": "www.google.com",
     "emails": "guilherme.almeida43@fatec.sp.gov.br",
@@ -31,9 +31,9 @@ PUT {{baseURL}}/ideas
 Content-Type: application/json
 
 {
-    "_id": "615ab7ad237c62005a56a665",
-    "title": "App receitas",
-    "description": "Um app para lista de compras",
+    "_id": "615b82b0d0242c2025abb73b",
+    "title": "APP ESCOLA",
+    "description": "AAAAAAAAAAAAA",
     "category": "tech",
     "resources": "www.google.com",
     "emails": "guilherme.almeida43@fatec.sp.gov.br",
@@ -41,5 +41,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE {{baseURL}}/ideas/615abd128136e63bc8d41225
+DELETE {{baseURL}}/ideas/615b82b0d0242c2025abb73b
 Content-Type: application/json
