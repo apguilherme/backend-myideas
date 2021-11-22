@@ -1,4 +1,4 @@
-#Backend - Myideas
+# Backend - Myideas
 
 > Backend developed as a University project
 
@@ -9,6 +9,9 @@ Project deployed to Heroku:
 
 REST API test file: 
 - https://github.com/apguilherme/backend-myideas/blob/main/http/ideas.http
+
+Frontend project (mobile):
+- https://github.com/apguilherme/frontend-myidea
 
 Group members: 
 - Guilherme: https://github.com/apguilherme
